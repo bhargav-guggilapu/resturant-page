@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>JTGeats</title>
+  </head>
+  <body>
+    <div class="scrollabe">
+      <header class="container">
+        <nav>
+          <div style="display: flex; justify-content: space-between">
+            <div>
+              <h1>JTGeats</h1>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <div class="nav-item">Home</div>
+              <div class="nav-item">About</div>
+              <div class="nav-item">Menu</div>
+              <div class="nav-item">Blog</div>
+              <div class="nav-item">Contact</div>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="padding-right: 20px; font-size: 20px"
+              ></i>
+              <i
+                id="cart"
+                class="fa-solid fa-bag-shopping"
+                style="font-size: 20px"
+              ></i>
+            </div>
+          </div>
+        </nav>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            margin-top: 180px;
+          "
+        >
+          <div style="font-size: 35px; width: 40%; padding-top: 30px">
+            <h1 style="font-weight: 200">Authentic Home</h1>
+            <h1 style="font-weight: 200">food in India</h1>
+            <p
+              style="
+                font-size: 20px;
+                padding-top: 20px;
+                width: 80%;
+                margin-bottom: 50px;
+              "
+            >
+              JTGeats is a courier service in which authentic home cook food is
+              delivered to customer.
+            </p>
+            <div>
+              <input
+                placeholder="Search food you love"
+                type="text"
+                class="header-input"
+              />
+              <button class="search-button">Search</button>
+            </div>
+          </div>
+          <img src="./images/chief.png" alt="CHIEF IMAGE" />
+        </div>
+      </header>
+      <section>
+        <div class="section1-container">
+          <h1 style="font-size: 35px; margin-bottom: 50px">Home Kitchen</h1>
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              flex-wrap: wrap;
+            "
+            class="card-container"
+          ></div>
+        </div>
+      </section>
+      <section>
+        <div
+          style="
+            background-color: #f7f8fa;
+            padding: 30px 150px;
+            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <h1 style="font-size: 35px; margin-bottom: 50px">Popular Items</h1>
+          <div style="display: flex; align-items: center">
+            <svg
+              width="138"
+              height="139"
+              viewBox="0 0 138 139"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="transform: rotate(0.5turn)"
+            >
+              <g filter="url(#filter0_d_227_80)">
+                <circle cx="65.25" cy="64.5" r="48.75" fill="white" />
+                <path
+                  d="M82.265 60.9489C83.6296 62.144 83.6296 64.2673 82.265 65.4624L60.9222 84.1555C58.9827 85.8541 55.9456 84.4768 55.9456 81.8987L55.9456 44.5126C55.9456 41.9344 58.9827 40.5572 60.9222 42.2558L82.265 60.9489Z"
+                  fill="#1AC073"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_227_80"
+                  x="0.5"
+                  y="0.75"
+                  width="137.5"
+                  height="137.5"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dx="4" dy="5" />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_227_80"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_227_80"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-left: 30px;
+              "
+              class="card-container3"
+            ></div>
+            <svg
+              width="138"
+              height="139"
+              viewBox="0 0 138 139"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_227_80)">
+                <circle cx="65.25" cy="64.5" r="48.75" fill="#1AC073" />
+                <path
+                  d="M82.265 60.9489C83.6296 62.144 83.6296 64.2673 82.265 65.4624L60.9222 84.1555C58.9827 85.8541 55.9456 84.4768 55.9456 81.8987L55.9456 44.5126C55.9456 41.9344 58.9827 40.5572 60.9222 42.2558L82.265 60.9489Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_227_80"
+                  x="0.5"
+                  y="0.75"
+                  width="137.5"
+                  height="137.5"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dx="4" dy="5" />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_227_80"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_227_80"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+
+          <button id="request" class="form-button">Request a Dish</button>
+        </div>
+      </section>
+      <section>
+        <div class="video-section">
+          <div style="text-align: center">
+            <h1 style="word-spacing: 10px; font-size: 50px; line-height: 70px">
+              We are providing best
+            </h1>
+            <h1
+              style="margin-bottom: 20px; word-spacing: 10px; font-size: 50px"
+            >
+              home cooked food delivery service.
+            </h1>
+            <p style="font-size: 15px; word-spacing: 5px">
+              Away from home and craving the tasty homemade recipes?
+            </p>
+            <p style="font-size: 15px; word-spacing: 5px; margin-bottom: 50px">
+              Choose from a selection of our delicious home cooked dishes
+            </p>
+            <div style="position: relative">
+              <i id="video-control" class="fa-solid fa-play active fa-5x"></i>
+              <video id="video" preload="auto" loop width="1000" height="500">
+                <source
+                  src="https://static.videezy.com/system/resources/previews/000/002/719/original/cloudy-sunset.mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="form-section">
+          <div style="padding-top: 100px; width: 50%">
+            <h2 style="font-weight: 200">Do you have a question</h2>
+            <h2 style="font-weight: 200; margin-bottom: 10px">
+              or want to become a seller?
+            </h2>
+            <p style="font-size: 12px">
+              Fill this form and our manager will contact you next 48 hours.
+            </p>
+            <div style="display: flex; justify-content: space-between">
+              <input placeholder="Your Name" type="text" class="form-input" />
+              <input placeholder="Your e-mail" type="text" class="form-input" />
+            </div>
+            <textarea
+              class="form-input"
+              placeholder="Your message"
+              style="width: 100%; height: 150px; margin-top: 30px; resize: none"
+            ></textarea>
+            <button class="form-button">Submit</button>
+          </div>
+          <img
+            src="./images/driver.png"
+            alt="DRIVER IMAGE"
+            style="padding-top: 80px"
+          />
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              border-bottom: 1px solid white;
+              padding-bottom: 30px;
+            "
+          >
+            <div>
+              <h1 style="font-size: 20px">JTGeats</h1>
+            </div>
+            <div style="display: flex; justify-content: space-evenly">
+              <div class="nav-item">Home</div>
+              <div class="nav-item">About</div>
+              <div class="nav-item">Menu</div>
+              <div class="nav-item">Blog</div>
+              <div class="nav-item">Contact</div>
+            </div>
+            <div>
+              <i
+                class="fa-brands fa-facebook"
+                style="padding-right: 10px; font-size: 25px"
+              ></i>
+              <i class="fa-brands fa-instagram" style="font-size: 25px"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div id="cart-modal" class="modal">
+        <div class="modal-content">
+          <i
+            class="fa-solid fa-bag-shopping fa-10x"
+            style="margin-bottom: 40px; color: grey; opacity: 0.1"
+          ></i>
+          <h1>Cart is Empty</h1>
+          <p style="margin-top: 15px; color: grey; margin-bottom: 25px">
+            Add some items to the cart to checkout
+          </p>
+          <button id="close" class="form-button">Back to Menu</button>
+        </div>
+      </div>
+
+      <div id="request-modal" class="modal">
+        <div class="modal-content" style="padding: 100px">
+          <h1>Request a Dish</h1>
+          <div style="width: 100%; margin-top: 50px">
+            <label>Name*</label>
+            <input
+              placeholder="Enter name of the dish"
+              type="text"
+              class="modal-input"
+            />
+          </div>
+          <div style="width: 100%; margin-top: 30px; margin-bottom: 100px">
+            <label>Upload an image</label>
+            <input placeholder="Paste a URL" type="text" class="modal-input" />
+          </div>
+          <div style="display: flex; justify-content: space-between">
+            <button
+              class="form-button close-request"
+              style="
+                background-color: white;
+                color: #1ac073;
+                margin-right: 30px;
+              "
+            >
+              Cancel
+            </button>
+            <button class="form-button close-request">Submit Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
